@@ -31,23 +31,28 @@ yarn-error.log*
 node_modules/
 bower_components/
 
-# Build outputs
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+*.egg-info/
 dist/
-build/
-out/
-.cache/
-_site/
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Environment files
 .env
 .env.local
 .env.*.local
-
-# Jekyll specific (if using Jekyll)
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
 
 # Temporary files
 *.tmp
