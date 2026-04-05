@@ -69,3 +69,7 @@ pip-delete-this-directory.txt
 *.rar
 *.tar
 *.zip
+
+*other
+prepare/
+preapare/

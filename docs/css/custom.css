@@ -1,0 +1,73 @@
+:root {
+  --md-primary-fg-color:        #FF6B00;
+  --md-primary-fg-color--light: #FF8C33;
+  --md-primary-fg-color--dark:  #D45A00;
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFF;
+  
+  --md-accent-fg-color:         #FF9500;
+  --md-accent-fg-color--light:  #FFB347;
+  --md-accent-fg-color--dark:   #E67E00;
+  --md-accent-bg-color:         #FFFFFF;
+  --md-accent-bg-color--light:  #FFFFFF;
+  
+  --md-typeset-a-color:         #FF6B00;
+}
+
+.md-nav__link--active {
+  color: #FF6B00 !important;
+}
+
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: #FF8C33 !important;
+}
+
+.md-header {
+  background: linear-gradient(135deg, #FF6B00 0%, #FF9500 100%);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: #D45A00;
+}
+
+.md-typeset code {
+  color: #D45A00;
+}
+
+.md-button {
+  background-color: #FF6B00;
+  border-color: #FF6B00;
+}
+
+.md-button:hover {
+  background-color: #D45A00;
+  border-color: #D45A00;
+}
+
+.admonition.note {
+  border-color: #FF6B00;
+}
+
+.admonition.note > .admonition-title {
+  background-color: #FF6B0020;
+  border-color: #FF6B00;
+}
+
+.admonition.warning {
+  border-color: #FF9500;
+}
+
+.admonition.warning > .admonition-title {
+  background-color: #FF950020;
+  border-color: #FF9500;
+}
+
+.md-footer {
+  background: linear-gradient(135deg, #2A2A2A 0%, #1A1A1A 100%);
+}

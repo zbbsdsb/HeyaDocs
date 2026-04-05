@@ -1,0 +1,52 @@
+site_name: Heya Docs
+site_url: https://zbbsdsb.github.io/HeyaDocs
+site_description: Heya - Multi-agent AI organization featuring heyo mode for complex engineering.
+site_author: Heya Team
+
+theme:
+  name: material
+  palette:
+    primary: orange
+    accent: deep orange
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Agents: agents.md
+  - API Keys: api-keys.md
+  - heyo Vision: heyo-vision.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.emoji
+
+extra_css:
+  - css/custom.css
+
+repo_url: https://github.com/zbbsdsb/HeyaDocs
+repo_name: zbbsdsb/HeyaDocs
+
+copyright: Copyright &copy; 2025 Heya Team
